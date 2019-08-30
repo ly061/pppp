@@ -29,11 +29,11 @@ class Test_Room_Manila_EN(unittest.TestCase):
         Testing Property, Room, Romm Detail, Offer modules for Manila, en
         """
         self.property_page.property_bookingbar()
-        # self.property_page.proferty_navigation_mega()
-        # self.property_page.click_room_suite()
-        # self.property_page.rooms_booking_bar()
-        # self.property_page.roomlist_check_availability()
-        # self.property_page.roomdetail_bookingbar()
+        self.property_page.proferty_navigation_mega()
+        self.property_page.click_room_suite()
+        self.property_page.rooms_booking_bar()
+        self.property_page.roomlist_check_availability()
+        self.property_page.roomdetail_bookingbar()
         # self.property_page.click_property_offer()
         # self.property_page.offer_room_booking_widget()
         try:

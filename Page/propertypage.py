@@ -486,9 +486,9 @@ class RoomListPage():
                 self.driver.close()
                 continue
             try:
-                self.setting_time_out(6)
+                self.setting_time_out(15)
                 self.driver.find_element(*self.find_room_submit).click()
-                sleep(6)
+                # sleep(10)
                 cur_url = self.driver.current_url
             except BaseException:
                 self.driver.execute_script('window.stop()')
@@ -608,8 +608,8 @@ class RoomListPage():
             assert self.driver.current_url == RoomListPage.property_dir_url
             # print(f"Property_Bookingbar, success</br>")
             # print(f"{self.driver.current_url}</br></br>")
-            print("Property_Bookingbar, success")
-            print(self.driver.current_url)
+            print("Property_Bookingbar, success</br>")
+            print(self.driver.current_url,"</br></br>")
         except BaseException:
             try:
                 assert RoomListPage.hotelid in self.driver.current_url
@@ -622,7 +622,7 @@ class RoomListPage():
                 # print(f"{self.driver.current_url}</br></br>")
                 print(
                     f"Property_Bookingbar, <span style='color:red'>failed</span>")
-                print(f"{self.driver.current_url}")
+                print(f"{self.driver.current_url}</br>")
                 RoomListPage.err_mum += 1
         self.driver.close()
         self.switch_handls()
