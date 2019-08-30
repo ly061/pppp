@@ -1,5 +1,0 @@
-Property_Bookingbar, <span style='color:red'>failed</span></br>
-https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12599&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=</br></br>
-https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12599&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=</br></br>
-Property_Bookingbar, success
-{'https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12599&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId='}
