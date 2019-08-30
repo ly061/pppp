@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da5ceff4-c2fb-43bf-8211-934821848477" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/demo/hd_demo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/propertypage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/propertypage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/geckodriver.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/report/Bangkok Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report/Bangkok Report.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,14 +14,15 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pppp$gggggg.coverage" NAME="gggggg Coverage Results" MODIFIED="1559111254809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/pppp$log.coverage" NAME="log Coverage Results" MODIFIED="1559122681416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page" />
-    <SUITE FILE_PATH="coverage/pppp$json_data.coverage" NAME="json_data Coverage Results" MODIFIED="1561013729352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/pppp2$runner2.coverage" NAME="runner2 Coverage Results" MODIFIED="1567134391991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pppp$runner.coverage" NAME="runner Coverage Results" MODIFIED="1559122687449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pppp$exception_ly.coverage" NAME="exception_ly Coverage Results" MODIFIED="1561691502015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lyyyyy" />
     <SUITE FILE_PATH="coverage/pppp$runner2.coverage" NAME="runner2 Coverage Results" MODIFIED="1567074275856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pppp$runner3.coverage" NAME="runner3 Coverage Results" MODIFIED="1558944412258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pppp$111.coverage" NAME="111 Coverage Results" MODIFIED="1562149232561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/pppp$super_def.coverage" NAME="super_def Coverage Results" MODIFIED="1561605172189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+    <SUITE FILE_PATH="coverage/pppp$json_data.coverage" NAME="json_data Coverage Results" MODIFIED="1561013729352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/pppp$runner.coverage" NAME="runner Coverage Results" MODIFIED="1559122687449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pppp2$hd_demo.coverage" NAME="hd_demo Coverage Results" MODIFIED="1567160375550" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
+    <SUITE FILE_PATH="coverage/pppp$111.coverage" NAME="111 Coverage Results" MODIFIED="1562149232561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/demo" />
     <SUITE FILE_PATH="coverage/pppp$assert_py.coverage" NAME="assert_py Coverage Results" MODIFIED="1561691452689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/pppp$data_lan.coverage" NAME="data_lan Coverage Results" MODIFIED="1561112157684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
   </component>
@@ -46,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runner2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="784">
               <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
             </state>
           </provider>
@@ -55,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
+            <state relative-caret-position="532">
               <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -64,11 +63,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Page/propertypage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1456">
-              <caret line="459" lean-forward="true" selection-start-line="459" selection-end-line="459" />
+            <state relative-caret-position="224">
+              <caret line="466" selection-start-line="466" selection-end-line="466" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#977#2997#0" />
@@ -135,46 +134,18 @@
                 <element signature="e#17150#17806#0" />
                 <element signature="e#17175#17461#0" />
                 <element signature="e#17520#17806#0" />
-                <element signature="e#21631#22628#0" />
-                <element signature="e#21946#22002#0" />
-                <element signature="e#22673#26910#0" />
-                <element signature="e#22673#22764#1" />
-                <element signature="e#23159#23596#0" />
-                <element signature="e#23639#24843#0" />
-                <element signature="e#23660#24213#0" />
-                <element signature="e#24264#24843#0" />
-                <element signature="e#24870#24997#0" />
-                <element signature="e#25041#25124#0" />
-                <element signature="e#25803#26077#0" />
-                <element signature="e#25879#25924#0" />
-                <element signature="e#26120#26818#0" />
-                <element signature="e#26141#26428#0" />
-                <element signature="e#26212#26257#0" />
-                <element signature="e#26479#26818#0" />
-                <element signature="e#26479#26554#0" />
-                <element signature="e#26953#29757#0" />
-                <element signature="e#26953#27004#1" />
-                <element signature="e#27146#27577#0" />
-                <element signature="e#27620#28715#0" />
-                <element signature="e#27715#28247#0" />
-                <element signature="e#28298#28715#0" />
-                <element signature="e#28742#28869#0" />
-                <element signature="e#28913#28995#0" />
-                <element signature="e#29022#29196#0" />
-                <element signature="e#29239#29664#0" />
-                <element signature="e#29260#29439#0" />
-                <element signature="e#29490#29664#0" />
-                <element signature="e#29811#31948#0" />
-                <element signature="e#30207#30520#0" />
-                <element signature="e#30228#30465#0" />
-                <element signature="e#30587#31914#0" />
-                <element signature="e#31329#31594#0" />
-                <element signature="e#31646#31914#0" />
-                <element signature="e#31998#33302#0" />
-                <element signature="e#32015#32340#0" />
-                <element signature="e#32383#32742#0" />
-                <element signature="e#32874#33083#0" />
-                <element signature="e#33128#33302#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo/hd_demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="954">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -263,7 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/testcase/test_newyork/test_newyork_4fr.py" />
         <option value="$PROJECT_DIR$/testcase/test_newyork/test_newyork_5es.py" />
         <option value="$PROJECT_DIR$/testcase/test_newyork/test_newyork_pt.py" />
         <option value="$PROJECT_DIR$/testcase/test_paris/test_paris_1en.py" />
@@ -314,12 +284,13 @@
         <option value="$PROJECT_DIR$/data/pencm_bookingdata.json" />
         <option value="$PROJECT_DIR$/testcase/test_bangkok/test_bangkok_1en.py" />
         <option value="$PROJECT_DIR$/Page/propertypage.py" />
+        <option value="$PROJECT_DIR$/demo/hd_demo.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="26" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="661" />
+    <option name="y" value="55" />
     <option name="width" value="1800" />
     <option name="height" value="885" />
   </component>
@@ -335,6 +306,11 @@
             <path>
               <item name="pppp2" type="b2602c69:ProjectViewProjectNode" />
               <item name="pppp2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pppp2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pppp2" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pppp2" type="b2602c69:ProjectViewProjectNode" />
@@ -355,7 +331,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/lowe222" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -377,7 +353,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runner2">
+  <component name="RunManager" selected="Python.hd_demo">
     <configuration name="111" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pppp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -444,6 +420,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="hd_demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pppp" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo/hd_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="runner2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pppp" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -466,42 +464,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="super_def" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pppp" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/super_def.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Python.super_def" />
       <item itemvalue="Python.assert_py" />
       <item itemvalue="Python.111" />
       <item itemvalue="Python.exception_ly" />
       <item itemvalue="Python.runner2" />
+      <item itemvalue="Python.hd_demo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.hd_demo" />
         <item itemvalue="Python.runner2" />
         <item itemvalue="Python.111" />
         <item itemvalue="Python.exception_ly" />
         <item itemvalue="Python.assert_py" />
-        <item itemvalue="Python.super_def" />
       </list>
     </recent_temporary>
   </component>
@@ -538,6 +514,8 @@
       <workItem from="1567043226169" duration="12005000" />
       <workItem from="1567130788254" duration="1206000" />
       <workItem from="1567134369888" duration="336000" />
+      <workItem from="1567148906838" duration="52000" />
+      <workItem from="1567155898265" duration="5081000" />
     </task>
     <servers />
   </component>
@@ -550,7 +528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126759000" />
+    <option name="totallyTimeSpent" value="131892000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -562,15 +540,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.020134227" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13154362" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.04249292" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4073673" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.04249292" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40651557" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.027233116" />
@@ -669,14 +647,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/tools/python/Lib/site-packages/BeautifulReport/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1922" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/tools/python/Lib/site-packages/BeautifulReport/LICENSE">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -943,6 +913,7 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/geckodriver.log" />
     <entry file="file://$PROJECT_DIR$/data/data_language.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -950,6 +921,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="784">
+          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -985,30 +973,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geckodriver.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/runner2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="32" column="22" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Page/propertypage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1456">
-          <caret line="459" lean-forward="true" selection-start-line="459" selection-end-line="459" />
+        <state relative-caret-position="224">
+          <caret line="466" selection-start-line="466" selection-end-line="466" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <element signature="e#977#2997#0" />
@@ -1075,46 +1043,16 @@
             <element signature="e#17150#17806#0" />
             <element signature="e#17175#17461#0" />
             <element signature="e#17520#17806#0" />
-            <element signature="e#21631#22628#0" />
-            <element signature="e#21946#22002#0" />
-            <element signature="e#22673#26910#0" />
-            <element signature="e#22673#22764#1" />
-            <element signature="e#23159#23596#0" />
-            <element signature="e#23639#24843#0" />
-            <element signature="e#23660#24213#0" />
-            <element signature="e#24264#24843#0" />
-            <element signature="e#24870#24997#0" />
-            <element signature="e#25041#25124#0" />
-            <element signature="e#25803#26077#0" />
-            <element signature="e#25879#25924#0" />
-            <element signature="e#26120#26818#0" />
-            <element signature="e#26141#26428#0" />
-            <element signature="e#26212#26257#0" />
-            <element signature="e#26479#26818#0" />
-            <element signature="e#26479#26554#0" />
-            <element signature="e#26953#29757#0" />
-            <element signature="e#26953#27004#1" />
-            <element signature="e#27146#27577#0" />
-            <element signature="e#27620#28715#0" />
-            <element signature="e#27715#28247#0" />
-            <element signature="e#28298#28715#0" />
-            <element signature="e#28742#28869#0" />
-            <element signature="e#28913#28995#0" />
-            <element signature="e#29022#29196#0" />
-            <element signature="e#29239#29664#0" />
-            <element signature="e#29260#29439#0" />
-            <element signature="e#29490#29664#0" />
-            <element signature="e#29811#31948#0" />
-            <element signature="e#30207#30520#0" />
-            <element signature="e#30228#30465#0" />
-            <element signature="e#30587#31914#0" />
-            <element signature="e#31329#31594#0" />
-            <element signature="e#31646#31914#0" />
-            <element signature="e#31998#33302#0" />
-            <element signature="e#32015#32340#0" />
-            <element signature="e#32383#32742#0" />
-            <element signature="e#32874#33083#0" />
-            <element signature="e#33128#33302#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo/hd_demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="954">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
