@@ -439,7 +439,7 @@ class RoomListPage():
         """
 
         print("</br>")
-        print("start room detail booking bar")
+
         self.scroll_many_times(5)
         rooms_list = self.driver.find_elements(*self.find_room_list)
         open_tab_num = 0
@@ -452,7 +452,7 @@ class RoomListPage():
                 continue
             try:
                 if self.driver.find_element(
-                        By.XPATH,
+                        By.CSS_SELECTOR,
                         f'div.roomListing-rooms div[index="{room_num}"] div.cardRoomDetails-cta'):
                     js_open = f"window.open('{find_room_url}')"
                     self.driver.execute_script(js_open)
