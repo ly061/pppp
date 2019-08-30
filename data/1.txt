@@ -1,0 +1,19 @@
+1:oepn all tabs 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=GS1&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/grand-deluxe-harbour-view-suite 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=FS1&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/deluxe-harbour-view-suite 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=ES1&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/superior-harbour-view-suite 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=GS2&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/deluxe-suite 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=DS1,XDS&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/superior-suite 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=CGK,CGT&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/grand-deluxe-room 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=BS4,BS3&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/deluxe-courtyard-room 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=BDK,BDT&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/deluxe-room 
+dir url: https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12597&arrive=2019-12-11&depart=2019-12-12&room=CS2,CS1&rate=&promo=&group=&agencyId= 
+2:  current url: https://staging.peninsula.com/en/hong-kong/luxury-hotel-room-suite-types/grand-deluxe-harbour-view-room 

@@ -1,0 +1,9 @@
+data_lan = [{"Language": "en", "Lanid": "en-GB"},
+            {"Language": "zh-cn", "Lanid": "zh-CN"},
+            {"Language": "zh", "Lanid": "zh-TW"},
+            {"Language": "ja", "Lanid": "ja-JP"},
+            {"Language": "fr", "Lanid": "fr-FR"},
+            {"Language": "kr", "Lanid": "ko-KR"},
+            {"Language": "es", "Lanid": "es-ES"},
+            {"Language": "pt", "Lanid": "pt-PT"},
+            {"Language": "ar", "Lanid": "ar-EG"}]

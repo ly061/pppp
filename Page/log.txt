@@ -1,0 +1,60 @@
+---测试开始----
+输入密码
+----测试结束----
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12599&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId='}
+Property_Bookingbar, success
+https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12599&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=
+test
+test
+test
+Property_Bookingbar, success
+https://secure.peninsula.com/?locale=en-GB&level=chain&chain=5440&hotel=12599&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&hotel=12598&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible='}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&hotel=12598&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible='}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&hotel=12598&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible='}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&hotel=12598&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible='}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&hotel=12598&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible='}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&hotel=12598&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible='}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&hotel=12598&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible='}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?locale=en-GB&hotel=12598&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible='}
+Property_Bookingbar, success
+{'https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1'}
+Property_Bookingbar, success
+https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1
+Property_Bookingbar, success
+https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1
+Property_Bookingbar, success
+https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1
+Property_Bookingbar, success
+https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=THB&depart=2019-12-12&hotel=12598&level=hotel&locale=en-GB&rooms=1
