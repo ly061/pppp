@@ -1,34 +1,34 @@
 import unittest
 from ddt import ddt
+from parameterized import parameterized
+
 from Page.homepage import HomePage
 from Page.propertypage import RoomListPage
 from driver.browser import chrome_browser, firefox_browser
 
-@ddt
-class Test_Room_BJ_EN(unittest.TestCase):
 
-    @classmethod
-    def setUpClass(cls):
+class Test_Room_Bangkok_ZHCN(unittest.TestCase):
+
+    def setUp(cls):
         cls.driver = firefox_browser()
-        cls.bace_url_test = f"https://{HomePage.environment_pen}.peninsula.com/en/beijing/5-star-luxury-hotel-wangfujing"
-        try:
-            cls.driver.get(f"{cls.bace_url_test}")
-
-        except:
-            cls.driver.refresh()
-        cls.driver.execute_script(f"window.open('{cls.bace_url_test}')")
         cls.home = HomePage(cls.driver)
         cls.property_page = RoomListPage(cls.driver)
 
-    @classmethod
-    def tearDownClass(cls):
+    def tearDown(cls):
         cls.driver.close()
 
+    @parameterized.expand(['en'])
+    def test_room_booking_bangkok_zh_cn(self, language):
+        """
+        Testing Property, Room, Romm Detail, Offer modules for Bangkok,
+        """
+        self.bace_url_test = f"https://{HomePage.environment_pen}.peninsula.com/{language}/bangkok/5-star-luxury-hotel-riverside"
+        try:
+            self.driver.get(f"{self.bace_url_test}")
 
-    def test_room_booking_bj_en(self):
-        """
-         Testing Property, Room, Romm Detail, Offer modules for Beijing, en
-        """
+        except:
+            self.driver.execute_script("window.stop()")
+        self.driver.execute_script(f"window.open('{self.bace_url_test}')")
         self.property_page.property_bookingbar()
         self.property_page.proferty_navigation_mega()
         self.property_page.click_room_suite()
@@ -44,6 +44,5 @@ class Test_Room_BJ_EN(unittest.TestCase):
             raise
         finally:
             RoomListPage.err_mum = 0
-
     if __name__ == '__main__':
         unittest.main()

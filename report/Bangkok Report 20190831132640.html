@@ -7134,53 +7134,74 @@
 </script>
 <script type="text/javascript">
     var resultData = {
-    "testPass": 0,
+    "testPass": 1,
     "testResult": [
         {
             "className": "Test_Room_Bangkok_EN",
-            "methodName": "test_room_booking_bangkok_en",
-            "description": "\n        Testing Property, Room, Romm Detail, Offer modules for Bangkok, en\n        ",
-            "spendTime": "90.9",
+            "methodName": "test_room_booking_bangkok_en_0_en",
+            "description": "Testing Property, Room, Romm Detail, Offer modules for Bangkok, en [with *None=('en',)]\n        ",
+            "spendTime": "9.7",
             "status": "Fail",
             "log": [
                 "",
                 "Traceback (most recent call last):\n",
-                "  File \"C:\\Users\\yan.liu\\PycharmProjects\\pppp\\Page\\propertypage.py\", line 554, in property_bookingbar\n    '//div[@class=\"BookingBar-content\"]//input[@id=\"startDate\"]')\n",
-                "  File \"C:\\Users\\yan.liu\\PycharmProjects\\pppp\\Page\\propertypage.py\", line 141, in scroll_to_element_xpath\n    scroll_add_crowd_button = self.driver.find_element_by_xpath(element)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 394, in find_element_by_xpath\n    return self.find_element(by=By.XPATH, value=xpath)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 978, in find_element\n    'value': value})['value']\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
-                "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[@class=\"BookingBar-content\"]//input[@id=\"startDate\"]\n\n",
-                "\nDuring handling of the above exception, another exception occurred:\n\n",
+                "  File \"C:\\Users\\PenUser\\Desktop\\Automation\\python\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\PenUser\\Desktop\\Automation\\python\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"C:\\Users\\PenUser\\Desktop\\Automation\\python\\lib\\site-packages\\parameterized\\parameterized.py\", line 518, in standalone_func\n    return func(*(a + p.args), **p.kwargs)\n",
+                "TypeError: test_room_booking_bangkok_en() takes 1 positional argument but 2 were given\n"
+            ]
+        },
+        {
+            "className": "Test_Room_Bangkok_EN",
+            "methodName": "test_room_booking_bangkok_en_1_zh_cn",
+            "description": "Testing Property, Room, Romm Detail, Offer modules for Bangkok, en [with *None=('zh-cn',)]\n        ",
+            "spendTime": "9.6",
+            "status": "Fail",
+            "log": [
+                "",
                 "Traceback (most recent call last):\n",
-                "  File \"C:\\Users\\yan.liu\\PycharmProjects\\pppp\\Page\\propertypage.py\", line 568, in property_bookingbar\n    '//div[@class=\"BookingBar-content\"]//input[@id=\"startDate\"]')\n",
-                "  File \"C:\\Users\\yan.liu\\PycharmProjects\\pppp\\Page\\propertypage.py\", line 141, in scroll_to_element_xpath\n    scroll_add_crowd_button = self.driver.find_element_by_xpath(element)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 394, in find_element_by_xpath\n    return self.find_element(by=By.XPATH, value=xpath)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 978, in find_element\n    'value': value})['value']\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
-                "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[@class=\"BookingBar-content\"]//input[@id=\"startDate\"]\n\n",
-                "\nDuring handling of the above exception, another exception occurred:\n\n",
-                "Traceback (most recent call last):\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\unittest\\case.py\", line 605, in run\n    testMethod()\n",
-                "  File \"C:\\Users\\yan.liu\\PycharmProjects\\pppp\\testcase\\test_bangkok\\test_bangkok_1en.py\", line 30, in test_room_booking_bangkok_en\n    self.property_page.property_bookingbar()\n",
-                "  File \"C:\\Users\\yan.liu\\PycharmProjects\\pppp\\Page\\propertypage.py\", line 582, in property_bookingbar\n    '//div[@class=\"BookingBar-content\"]//input[@id=\"startDate\"]')\n",
-                "  File \"C:\\Users\\yan.liu\\PycharmProjects\\pppp\\Page\\propertypage.py\", line 141, in scroll_to_element_xpath\n    scroll_add_crowd_button = self.driver.find_element_by_xpath(element)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 394, in find_element_by_xpath\n    return self.find_element(by=By.XPATH, value=xpath)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 978, in find_element\n    'value': value})['value']\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n",
-                "  File \"C:\\Users\\yan.liu\\tools\\python\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 242, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
-                "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //div[@class=\"BookingBar-content\"]//input[@id=\"startDate\"]\n\n"
+                "  File \"C:\\Users\\PenUser\\Desktop\\Automation\\python\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"C:\\Users\\PenUser\\Desktop\\Automation\\python\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"C:\\Users\\PenUser\\Desktop\\Automation\\python\\lib\\site-packages\\parameterized\\parameterized.py\", line 518, in standalone_func\n    return func(*(a + p.args), **p.kwargs)\n",
+                "TypeError: test_room_booking_bangkok_en() takes 1 positional argument but 2 were given\n"
+            ]
+        },
+        {
+            "className": "Test_Room_BJ_EN",
+            "methodName": "test_room_booking_bj_en",
+            "description": "\n         Testing Property, Room, Romm Detail, Offer modules for Beijing, en\n        ",
+            "spendTime": "75.6",
+            "status": "Success",
+            "log": [
+                "Property_Bookingbar, success",
+                "https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=5440&child=0&currency=CNY&depart=2019-12-12&hotel=12625&level=hotel&locale=en-GB&rooms=1",
+                "Property_Navigation Mega, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=&depart=&room=&rate=&promo=&group=&agencyId=&accessible=</br></br>",
+                "Rooms_Bookingbar, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=2019-12-11&depart=2019-12-12&room=&rate=&promo=&group=&agencyId=&accessible=</br></br>",
+                "Rooms_Roomlist_grand-premier-suite_Check Availability, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=&depart=&room=ES1,ES2&rate=&promo=&group=&agencyId=&accessible=</br>",
+                "Rooms_Roomlist_superior-suite_Check Availability, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=&depart=&room=BDK,BDT&rate=&promo=&group=&agencyId=&accessible=</br>",
+                "Rooms_Roomlist_deluxe-suite_Check Availability, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=&depart=&room=CGK,CGT&rate=&promo=&group=&agencyId=&accessible=</br>",
+                "Rooms_Roomlist_duplex-suite_Check Availability, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=&depart=&room=CS1&rate=&promo=&group=&agencyId=&accessible=</br>",
+                "Rooms_Roomlist_premier-suite_Check Availability, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=&depart=&room=CSK,CST&rate=&promo=&group=&agencyId=&accessible=</br>",
+                "Rooms_Roomlist_wangfujing-suite_Check Availability, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=&depart=&room=FS1&rate=&promo=&group=&agencyId=&accessible=</br>",
+                "Rooms_Roomlist_beijing-suite_Check Availability, success</br>",
+                "https://secure.peninsula.com/?locale=en-GB&hotel=12625&arrive=&depart=&room=GS1&rate=&promo=&group=&agencyId=&accessible=</br>",
+                ""
             ]
         }
     ],
     "testName": "Automation Test",
-    "testAll": 1,
-    "testFail": 1,
-    "beginTime": "2019-08-27 10:14:19",
-    "totalTime": "171s",
+    "testAll": 3,
+    "testFail": 2,
+    "beginTime": "2019-08-31 13:26:41",
+    "totalTime": "105s",
     "testSkip": 0,
     "testError": 0
 };
@@ -7199,14 +7220,7 @@
             $(obj).removeClass("btn-primary");
             $(obj).addClass("btn-danger");
             $.each(logs, function (i, n) {
-                if (n.indexOf("\n")) {
-                  str_array = n.split("\n");
-                  $.each(str_array, function (index, str) {
-                    detailLog = detailLog + "<p>" + str + "</p>";
-                  });
-                } else {
-                  detailLog = detailLog + "<p>" + n + "</p>";
-                }
+                detailLog = detailLog + "<p>" + n + "</p>";
             });
             $(obj).parent().parent().after("<tr><td colspan='" + len + "'><div style='font-family: Consolas;font-size:12px'>" + detailLog + "</div></td></tr>");
         } else if ($(obj).text() == 'Close') {

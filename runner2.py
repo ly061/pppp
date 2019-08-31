@@ -16,7 +16,7 @@ reportpath = os.path.join(curpath, "./report")
 if not os.path.exists(reportpath): os.mkdir(reportpath)
 
 
-def add_case(case_path=casepath, rule="test_manila_1*.py"):
+def add_case(case_path=casepath, rule="test_bangkok_pencm.py"):
     '''加载所有的测试用例'''
     discover = unittest.defaultTestLoader.discover(case_path,
                                                   pattern=rule,

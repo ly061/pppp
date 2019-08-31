@@ -228,6 +228,7 @@ class RoomListPage():
                 open_offer_tab_err += 1
                 pass
 
+
         for i in range((len(offer_list) - open_offer_tab_err)):
             if i == 0:
                 sleep(10)
@@ -239,8 +240,7 @@ class RoomListPage():
                 city_text = url_offer_split[4].replace("-", "")       # city
                 offer_text = url_offer_split[7]                       # offer
                 self.offer_code_in_jsondata(city_text, offer_text)
-                offer_dir = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&level=chain&chain=5440&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room=&rate={RoomListPage.offer_rate}&promo=&group=&agencyId="
-
+                offer_dir = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room=&rate={RoomListPage.offer_rate}&promo=&group=&agencyId=&accessible="
             except BaseException:
                 print("this room don't have booking widget</br>")
                 print(f"{self.driver.current_url}</br>")
@@ -249,40 +249,24 @@ class RoomListPage():
 
             self.scroll_many_times(6)
             try:
-                self.scroll_to_element_xpath(
-                    '//div[@class="campaignReservationsWText-calendar"]//input[@id="startDate"]')
-                self.driver.find_element(
-                    *
-                    self.find_offer_input_start).send_keys(
-                    RoomListPage.start_date)
-                self.driver.find_element(
-                    *
-                    self.find_offer_input_end).send_keys(
-                    RoomListPage.end_date)
+                scroll_add_crowd_button = self.driver.find_element_by_css_selector("input#bookingbar-res-start")
+                self.driver.execute_script("arguments[0].scrollIntoView();", scroll_add_crowd_button)
+                self.driver.find_element(*self.find_offer_input_start).send_keys(RoomListPage.start_date)
+                self.driver.find_element(*self.find_offer_input_end).send_keys(RoomListPage.end_date)
             except BaseException:
                 try:
                     self.driver.refresh()
                     self.scroll_many_times(6)
-                    self.scroll_to_element_xpath(
-                        '//div[@class="campaignReservationsWText-calendar"]//input[@id="startDate"]')
-                    self.driver.find_element(
-                        *
-                        self.find_offer_input_start).send_keys(
-                        RoomListPage.start_date)
-                    self.driver.find_element(
-                        *
-                        self.find_offer_input_end).send_keys(
-                        RoomListPage.end_date)
+                    self.driver.find_element_by_css_selector("input#bookingbar-res-start")
+                    self.driver.find_element(*self.find_offer_input_start).send_keys(RoomListPage.start_date)
+                    self.driver.find_element(*self.find_offer_input_end).send_keys(RoomListPage.end_date)
                 except BaseException:
                     self.driver.close()
                     continue
 
             try:
                 self.setting_time_out(6)
-                self.driver.find_element(
-                    *
-                    self.find_offer_date_submit_button).send_keys(
-                    Keys.ENTER)
+                self.driver.find_element(*self.find_offer_date_submit_button).send_keys(Keys.ENTER)
                 sleep(6)
 
             except Exception as err:
@@ -290,7 +274,7 @@ class RoomListPage():
                 self.setting_time_out(200)
 
             try:
-                assert offer_dir in self.driver.current_url
+                assert offer_dir == self.driver.current_url
                 print(f"Offer_{offer_text}_Booking widget, success</br>")
                 print(f"{self.driver.current_url}</br>")
             except BaseException:
@@ -463,18 +447,14 @@ class RoomListPage():
 
         for room_num in range(0, open_tab_num):
             self.switch_handls()
-            self.scroll_many_times(5)
+            self.scroll_many_times(3)
 
             try:
                 self.scroll_to_element_xpath(
                     '//div[@class="bookingbar-dateRanger-container"]//input[@type="text" and @id = "bookingbar-main-start"]')
                 self.city_code()
                 direct_url = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room=&rate=&promo=&group=&agencyId=&accessible="
-                WebDriverWait(
-                    self.driver,
-                    60,
-                    0.5).until(
-                    EC.presence_of_element_located(
+                WebDriverWait(self.driver,60,0.5).until(EC.presence_of_element_located(
                         (By.XPATH,
                          '//div[@class="bookingbar-dateRanger-container"]//input[@type="text" and @id = "bookingbar-main-start"]'))).send_keys(
                     RoomListPage.start_date)
@@ -486,9 +466,9 @@ class RoomListPage():
                 self.driver.close()
                 continue
             try:
-                self.setting_time_out(15)
-                self.driver.find_element(*self.find_room_submit).click()
-                # sleep(10)
+                self.setting_time_out(6)
+                self.driver.find_element(*self.find_room_submit).send_keys(Keys.ENTER)
+                sleep(6)
                 cur_url = self.driver.current_url
             except BaseException:
                 self.driver.execute_script('window.stop()')
@@ -510,6 +490,7 @@ class RoomListPage():
                 except BaseException:
                     print(
                         f"RoomDetail_{RoomListPage.room_type_text}_Bookingbar, <span style='color:red'>failed</span></br>")
+                    print(f"Right: {direct_url}</br>")
                     print(f"{self.driver.current_url}</br>")
                     RoomListPage.err_mum += 1
             finally:
@@ -751,6 +732,7 @@ class RoomListPage():
         RoomListPage.li_url = []
 
     def proferty_navigation_mega(self):
+        print("</br></br>")
         try:
             adove_element = self.driver.find_element(
                 *self.find_element_room_suit)
