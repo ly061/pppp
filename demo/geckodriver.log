@@ -5270,3 +5270,173 @@ JavaScript error: resource:///actors/AboutReaderChild.jsm, line 80: NS_ERROR_UNE
 
 ###!!! [Child][MessageChannel] Error: (msgtype=0x360113,name=PContent::Msg_DetachBrowsingContext) Closed channel: cannot send/recv
 
+1567483739141	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yan.liu\\AppData\\Local\\Temp\\rust_mozprofile.zYJH2PLcl9ez"
+1567483740864	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567483740864	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567483740864	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567483740864	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567483744918	Marionette	INFO	Listening on port 56256
+1567483745198	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1567483761795	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1567483761796	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 10816, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10816, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 13384, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13384, Chrome_ChildThread[Parent 10816, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1[Parent 10816, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14752, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14752, Ch1567483782143	Marionette	INFO	Stopped listening on port 56256
+[GPU 3956, 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1567483787417	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\yan.liu\\AppData\\Local\\Temp\\rust_mozprofile.Je9ZbmA8vdi1"
+1567483789089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567483789089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567483789089	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567483789090	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567483792955	Marionette	INFO	Listening on port 56414
+1567483792978	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221567468810551%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1567483853362	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1567483853371	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+WebGL(000001695709C000)::ForceLoseContext
+WebGL(0000016955784800)::ForceLoseContext
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+JavaScript error: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: TypeError: this.refs.paragraph is undefined
+WebGL(00000169570A1000)::ForceLoseContext
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+WebGL(00000169570A7800)::ForceLoseContext
+[Parent 4140, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 4140, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 4140, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 4140, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 4140, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 4140, Gecko_IOThread] WARNING: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 307
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 4140, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1563383129/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child1567490711115	Marionette	INFO	Stopped listening on port 56414
+[GPU 138
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

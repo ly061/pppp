@@ -31,10 +31,10 @@ class Test_Room_BJ_EN(unittest.TestCase):
         """
         self.property_page.property_bookingbar()
         self.property_page.proferty_navigation_mega()
-        # self.property_page.click_room_suite()
-        # self.property_page.rooms_booking_bar()
-        # self.property_page.roomlist_check_availability()
-        # self.property_page.roomdetail_bookingbar()
+        self.property_page.click_room_suite()
+        self.property_page.rooms_booking_bar()
+        self.property_page.roomlist_check_availability()
+        self.property_page.roomdetail_bookingbar()
         self.property_page.click_property_offer()
         self.property_page.offer_room_booking_widget()
         try:

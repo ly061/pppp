@@ -9,7 +9,7 @@ locale = ["de_AT", "de_DE", "fr_CH", "it_CH", "de_CH", "fr_BE", "nl_BE",
           "ja_JP", "en_EU", "hu_HU", "cs_CZ", "pl_PL", "pt_BR", "es_XX",
           "es_MX", "en_AA", "en_AU", "en_IN", "ru_RU"]
 for i in locale:
-    url = f"https://hdguest:MLP@2017@staging2019.customkings.harley-davidson.com/{i}"
+    url = f"https://customkings.harley-davidson.com/{i}"
     r = requests.get(url, headers=headers)
     soup = BeautifulSoup(r.text, 'lxml')
     a = soup.find_all('ul', class_='home-filter-menu-childrenBox')
@@ -22,7 +22,7 @@ for i in locale:
         try:
             assert id_country != '188'
         except:
-            print(f"{i} is not Phase4-----------------------------------------------{i}")
+            print(f"{i} is not Phase4-----------------------------------------------id error")
             err_num += 1
             continue
         countryid.append(id_country)
@@ -30,7 +30,7 @@ for i in locale:
         try:
             assert name_country != 'United States Of America'
         except:
-            print(f"{i} is not Phase4-----------------------------------------------{i}")
+            print(f"{i} is not Phase4-----------------------------------------------us error")
             err_num += 1
             continue
     if err_num == 0:

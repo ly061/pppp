@@ -502,19 +502,9 @@ class RoomListPage():
         self.read_json_data()
         url_city = self.driver.current_url.rstrip()
         url_city_split = url_city.split("/")
-
         language_text = url_city_split[3]  # language
         city_text = url_city_split[4].replace("-", "")  # city
         RoomListPage.room_type_text = url_city_split[6]  # room_type
-
-        # change_data_to_py = json.loads(RoomListPage.data_json)
-        # for i in range(len(change_data_to_py)):
-        #     if change_data_to_py[i]["Name"].replace("-","") == city_text:
-        #         RoomListPage.hotelid = change_data_to_py[i]["HotelId"]
-        #         rooms_list_detail = change_data_to_py[i]["RoomList"]
-        #         for j in range(len(rooms_list_detail)):
-        #             if rooms_list_detail[j]["Name"] == RoomListPage.room_type_text:
-        #                 RoomListPage.room_type_code = rooms_list_detail[j]["Code"]
         self.room_type_code_in_jsondata(city_text, RoomListPage.room_type_text)
 
         self.identify_language(language_text)
@@ -579,7 +569,6 @@ class RoomListPage():
 
         except BaseException:
             self.driver.execute_script('window.stop()')
-
             self.setting_time_out(200)
         RoomListPage.mega_dir_url = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive=&depart=&room=&rate=&promo=&group=&agencyId=&accessible="
         RoomListPage.property_dir_url = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room=&rate=&promo=&group=&agencyId=&accessible="
@@ -587,17 +576,16 @@ class RoomListPage():
 
         try:
             assert self.driver.current_url == RoomListPage.property_dir_url
-            # print(f"Property_Bookingbar, success</br>")
-            # print(f"{self.driver.current_url}</br></br>")
+
             print("Property_Bookingbar, success</br>")
-            print(self.driver.current_url,"</br></br>")
+            print(self.driver.current_url, "</br></br>")
         except BaseException:
             try:
                 assert RoomListPage.hotelid in self.driver.current_url
                 # print(f"Property_Bookingbar, success</br>")
                 # print(f"{RoomListPage.property_dir_url}</br></br>")
                 print("Property_Bookingbar, success")
-                print(self.driver.current_url)
+                print(RoomListPage.property_dir_url)
             except BaseException:
                 # print(f"Property_Bookingbar, <span style='color:red'>failed</span></br>")
                 # print(f"{self.driver.current_url}</br></br>")
