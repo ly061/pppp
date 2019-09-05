@@ -533,16 +533,10 @@ class RoomListPage():
         self.identify_language(language_text)
         self.scroll_many_times(6)
         try:
-            self.scroll_to_element_xpath(
-                '//div[@class="BookingBar-content"]//input[@id="bookingbar-main-start"]')
-            self.driver.find_element(
-                *
-                self.find_property_input_start_time).send_keys(
-                RoomListPage.start_date)
-            self.driver.find_element(
-                *
-                self.find_property_input_end_time).send_keys(
-                RoomListPage.end_date)
+            scroll_add_crowd_button = self.driver.find_element_by_css_selector('#bookingbar-main-start')
+            self.driver.execute_script("arguments[0].scrollIntoView();", scroll_add_crowd_button)
+            self.driver.find_element(*self.find_property_input_start_time).send_keys(RoomListPage.start_date)
+            self.driver.find_element(*self.find_property_input_end_time).send_keys(RoomListPage.end_date)
         except BaseException:
             try:
                 self.driver.refresh()
@@ -573,9 +567,9 @@ class RoomListPage():
                     RoomListPage.end_date)
 
         try:
-            self.setting_time_out(25)
+            self.setting_time_out(15)
             self.driver.find_element(*self.find_property_submit_buttom).click()
-            sleep(24)
+            sleep(14)
 
         except BaseException:
             self.driver.execute_script('window.stop()')
@@ -617,7 +611,7 @@ class RoomListPage():
 
         try:
             self.scroll_to_element_xpath(
-                '//div[@class = "BookingBar-content"]//input[@id = "startDate"]')
+                '//div[@class = "BookingBar-content"]//input[@id = "bookingbar-main-start"]')
             self.driver.find_element(
                 *
                 self.find_room_bookingbar_start_date).send_keys(
@@ -655,9 +649,9 @@ class RoomListPage():
                     RoomListPage.end_date)
 
         try:
-            self.setting_time_out(15)
+            self.setting_time_out(30)
             self.driver.find_element(*self.find_room_bookingbar_submit).click()
-            sleep(14)
+            sleep(24)
 
         except BaseException:
             self.driver.execute_script('window.stop()')

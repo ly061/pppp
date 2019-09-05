@@ -21,17 +21,11 @@ def run(city, case_path=casepath):
                                                    pattern=f"test_{city}_pencm.py",
                                                    top_level_dir=None)
     result = BeautifulReport(discover)
-    result.report(filename=f'HongKong Report.html', description='Automation Test', log_path='./report')
+    result.report(filename=f'{city} Report.html', description='Automation Test', log_path='./report')
 
 if __name__ == "__main__":
     # 用例集合
+    citys = ['hongkong', 'beijing']
+    # citys = ['hongkong', 'beijing', 'bangkok', 'beverly_hills', 'chicago', 'manila', 'newyork', 'paris', 'shanghai', 'tokyo']
+
     run('hongkong')
-    run('beijing')
-    run('bangkok')
-    run('beverly_hills')
-    run('chicago')
-    run('manila')
-    run('newyork')
-    run('paris')
-    run('shanghai')
-    run('tokyo')
