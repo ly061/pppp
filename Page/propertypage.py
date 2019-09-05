@@ -700,9 +700,11 @@ class RoomListPage():
                 pass
 
         for j in range(0, len(RoomListPage.li_url)):
-            base_url_roomtype = self.driver.find_element(
-                By.CSS_SELECTOR,
-                f'div.roomListing-rooms div[index="{j}"] h3 a').get_attribute("href")
+            try:
+                base_url_roomtype = self.driver.find_element(By.CSS_SELECTOR,
+                    f'div.roomListing-rooms div[index="{j}"] h3 a').get_attribute("href")
+            except:
+                continue
             room_type_name = base_url_roomtype.split("/")[-1]  # room_type
 
             self.room_type_code_in_jsondata(cur_room_url_city, room_type_name)

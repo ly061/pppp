@@ -14421,4 +14421,62 @@ JavaScript error: https://secure.peninsula.com/?adult=1&arrive=2019-12-11&chain=
 [GP
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-U
+U1567681796541	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\PenUser\\AppData\\Local\\Temp\\4\\rust_mozprofile.mE1gkMwx9xJz"
+1567681796937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1567681796937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1567681796937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1567681796937	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1567681798521	Marionette	INFO	Listening on port 59616
+1567681798658	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+1567681805016	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+1567681805018	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:223:64
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+WARN: compileToBinary(259): 
+C:\fakepath(96,36-72): warning X3556: integer divides may be much slower, try using uints if possible.
+
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texSubImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.
+JavaScript warning: https://pencm.peninsula.com/assets/js/bundle.js?v=4a98d3ad7d810d0c37446102c844bd25b2d233dc, line 16: Error: WebGL warning: texImage2D: Alpha-premult and y-flip are deprecated for non-DOM-Element uploads.

@@ -16,18 +16,22 @@ reportpath = os.path.join(curpath, "./report")
 if not os.path.exists(reportpath): os.mkdir(reportpath)
 
 
-def add_case(case_path=casepath, rule="test_hongkong_pencm.py"):
-    '''加载所有的测试用例'''
+def run(city, case_path=casepath):
     discover = unittest.defaultTestLoader.discover(case_path,
-                                                  pattern=rule,
-                                                  top_level_dir=None)
-    return discover
-
-
-def run(test_suit):
-    result = BeautifulReport(test_suit)
+                                                   pattern=f"test_{city}_pencm.py",
+                                                   top_level_dir=None)
+    result = BeautifulReport(discover)
     result.report(filename=f'HongKong Report.html', description='Automation Test', log_path='./report')
 
 if __name__ == "__main__":
     # 用例集合
-    run(add_case())
+    run('hongkong')
+    run('beijing')
+    run('bangkok')
+    run('beverly_hills')
+    run('chicago')
+    run('manila')
+    run('newyork')
+    run('paris')
+    run('shanghai')
+    run('tokyo')
