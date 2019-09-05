@@ -17,7 +17,7 @@ class Test_Room_Bangkok_ZHCN(unittest.TestCase):
     def tearDown(cls):
         cls.driver.close()
 
-    @parameterized.expand(['en'])
+    @parameterized.expand(['en', 'zh-cn', 'zh', 'ja', 'fr', 'kr'])
     def test_room_booking_bangkok_(self, language):
         """
         Testing Property, Room, Romm Detail, Offer modules for Bangkok,
@@ -31,12 +31,12 @@ class Test_Room_Bangkok_ZHCN(unittest.TestCase):
         self.driver.execute_script(f"window.open('{self.bace_url_test}')")
         self.property_page.property_bookingbar()
         self.property_page.proferty_navigation_mega()
-        # self.property_page.click_room_suite()
-        # self.property_page.rooms_booking_bar()
-        # self.property_page.roomlist_check_availability()
-        # self.property_page.roomdetail_bookingbar()
-        # self.property_page.click_property_offer()
-        # self.property_page.offer_room_booking_widget()
+        self.property_page.click_room_suite()
+        self.property_page.rooms_booking_bar()
+        self.property_page.roomlist_check_availability()
+        self.property_page.roomdetail_bookingbar()
+        self.property_page.click_property_offer()
+        self.property_page.offer_room_booking_widget()
         try:
             assert RoomListPage.err_mum == 0
         except:

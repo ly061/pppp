@@ -26,7 +26,7 @@ def add_case(case_path=casepath, rule="test_hongkong_pencm.py"):
 
 def run(test_suit):
     result = BeautifulReport(test_suit)
-    result.report(filename=f'Bangkok Report.html', description='Automation Test', log_path='./report')
+    result.report(filename=f'HongKong Report.html', description='Automation Test', log_path='./report')
 
 if __name__ == "__main__":
     # 用例集合

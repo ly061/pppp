@@ -234,17 +234,26 @@ class RoomListPage():
                 sleep(10)
             self.switch_handls()
             self.read_json_data()
+
+            url_offer = self.driver.current_url.rstrip()
+            url_offer_split = url_offer.split("/")
+            city_text = url_offer_split[4].replace("-", "")       # city
+            offer_text = url_offer_split[-1]                       # offer  7
+
+            if offer_text.startswith('x') is True:
+                self.driver.close()
+                self.switch_handls()
+                continue
+            self.offer_code_in_jsondata(city_text, offer_text)
+
             try:
-                url_offer = self.driver.current_url.rstrip()
-                url_offer_split = url_offer.split("/")
-                city_text = url_offer_split[4].replace("-", "")       # city
-                offer_text = url_offer_split[7]                       # offer
-                self.offer_code_in_jsondata(city_text, offer_text)
                 offer_dir = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room=&rate={RoomListPage.offer_rate}&promo=&group=&agencyId=&accessible="
-            except BaseException:
+            except Exception as err:
                 print("this room don't have booking widget</br>")
                 print(f"{self.driver.current_url}</br>")
+                print('err:', err, '</br>')
                 self.driver.close()
+                self.switch_handls()
                 continue
 
             self.scroll_many_times(6)
@@ -262,6 +271,7 @@ class RoomListPage():
                     self.driver.find_element(*self.find_offer_input_end).send_keys(RoomListPage.end_date)
                 except BaseException:
                     self.driver.close()
+                    self.switch_handls()
                     continue
 
             try:
@@ -279,7 +289,7 @@ class RoomListPage():
                 print(f"{self.driver.current_url}</br>")
             except BaseException:
                 try:
-                    assert RoomListPage.offer_rate in self.driver.current_url
+                    # assert RoomListPage.offer_rate in self.driver.current_url
                     assert RoomListPage.hotelid in self.driver.current_url
                     print(f"Offer_{offer_text}_Booking widget, success</br>")
                     print(f"{offer_dir}</br>")
@@ -584,8 +594,8 @@ class RoomListPage():
                 assert RoomListPage.hotelid in self.driver.current_url
                 # print(f"Property_Bookingbar, success</br>")
                 # print(f"{RoomListPage.property_dir_url}</br></br>")
-                print("Property_Bookingbar, success")
-                print(RoomListPage.property_dir_url)
+                print("Property_Bookingbar, success</br>")
+                print(RoomListPage.property_dir_url, "</br></br>")
             except BaseException:
                 # print(f"Property_Bookingbar, <span style='color:red'>failed</span></br>")
                 # print(f"{self.driver.current_url}</br></br>")
@@ -647,7 +657,7 @@ class RoomListPage():
         try:
             self.setting_time_out(15)
             self.driver.find_element(*self.find_room_bookingbar_submit).click()
-            sleep(15)
+            sleep(14)
 
         except BaseException:
             self.driver.execute_script('window.stop()')
@@ -720,7 +730,7 @@ class RoomListPage():
         RoomListPage.li_url = []
 
     def proferty_navigation_mega(self):
-        print("</br></br>")
+        print("</br>")
         try:
             adove_element = self.driver.find_element(
                 *self.find_element_room_suit)
