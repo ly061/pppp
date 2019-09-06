@@ -28,4 +28,4 @@ if __name__ == "__main__":
     citys = ['hongkong', 'beijing']
     # citys = ['hongkong', 'beijing', 'bangkok', 'beverly_hills', 'chicago', 'manila', 'newyork', 'paris', 'shanghai', 'tokyo']
 
-    run('hongkong')
+    run('bangkok')

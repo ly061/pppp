@@ -291,6 +291,7 @@ class RoomListPage():
                 try:
                     # assert RoomListPage.offer_rate in self.driver.current_url
                     assert RoomListPage.hotelid in self.driver.current_url
+                    assert RoomListPage.arrive_time, RoomListPage.depart_time in self.driver.current_url
                     print(f"Offer_{offer_text}_Booking widget, success</br>")
                     print(f"{offer_dir}</br>")
                 except BaseException:
