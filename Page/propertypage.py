@@ -196,32 +196,21 @@ class RoomListPage():
         print("</br></br>")
         try:
             # self.scroll_many_times(6)
-            self.driver.execute_script(
-                "arguments[0].scrollIntoView();",
-                self.driver.find_element(
-                    *self.find_element_offer_room))
+            self.driver.execute_script("arguments[0].scrollIntoView();", self.driver.find_element(*self.find_element_offer_room))
         except BaseException:
             self.driver.refresh()
             # self.scroll_many_times(6)
-            self.driver.execute_script(
-                "arguments[0].scrollIntoView();",
-                self.driver.find_element(
-                    *self.find_element_offer_room))
+            self.driver.execute_script("arguments[0].scrollIntoView();", self.driver.find_element(*self.find_element_offer_room))
         finally:
             self.driver.find_element(*self.find_element_offer_room).click()
 
-        WebDriverWait(
-            self.driver, 20, 0.5).until(
-            EC.presence_of_element_located(
-                (self.find_offer_list)))
+        WebDriverWait(self.driver, 20, 0.5).until(EC.presence_of_element_located((self.find_offer_list)))
         offer_list = self.driver.find_elements(*self.find_offer_list)
         open_offer_tab_err = 0
 
         for offer_index in range(0, len(offer_list)):
             try:
-                find_offer_url = self.driver.find_element(
-                    By.XPATH,
-                    f'//*[@index = "{offer_index}"]//div[@class = "cardMedium-text"]/a').get_attribute("href")
+                find_offer_url = self.driver.find_element(By.XPATH, f'//*[@index = "{offer_index}"]//div[@class = "cardMedium-text"]/a').get_attribute("href")
                 js_open = f"window.open('{find_offer_url}')"
                 self.driver.execute_script(js_open)
             except BaseException:
@@ -234,16 +223,20 @@ class RoomListPage():
                 sleep(10)
             self.switch_handls()
             self.read_json_data()
+            try:
+                url_offer = self.driver.current_url.rstrip()
+                url_offer_split = url_offer.split("/")
+                city_text = url_offer_split[4].replace("-", "")       # city
+                offer_text = url_offer_split[-1]                       # offer  7
+            except Exception as err:
+                print(err)
+                continue
 
-            url_offer = self.driver.current_url.rstrip()
-            url_offer_split = url_offer.split("/")
-            city_text = url_offer_split[4].replace("-", "")       # city
-            offer_text = url_offer_split[-1]                       # offer  7
-
-            if offer_text.startswith('x') is True:
+            if offer_text.startswith('x') is True:                  #skip start with x offer
                 self.driver.close()
                 self.switch_handls()
                 continue
+
             self.offer_code_in_jsondata(city_text, offer_text)
 
             try:

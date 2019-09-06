@@ -17,7 +17,8 @@ class Test_Room_Bangkok_ZHCN(unittest.TestCase):
     def tearDown(self):
         self.driver.close()
 
-    @parameterized.expand(['en', 'zh-cn', 'zh', 'ja', 'fr', 'kr'])
+    # @parameterized.expand(['en', 'zh-cn', 'zh', 'ja', 'fr', 'kr'])
+    @parameterized.expand(['en'])
     def test_room_booking_bangkok_(self, language):
         """
         Testing Property, Room, Romm Detail, Offer modules for Bangkok,
