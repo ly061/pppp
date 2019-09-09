@@ -9,7 +9,7 @@ from Page.propertypage import RoomListPage
 from driver.browser import chrome_browser, firefox_browser
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
-
+from data.language_list import lan_list
 
 class Test_Room_HK_EN(unittest.TestCase):
 
@@ -22,10 +22,10 @@ class Test_Room_HK_EN(unittest.TestCase):
     def tearDown(self):
         self.driver.close()
 
-    @parameterized.expand(['en', 'zh-cn', 'ja', 'fr', 'es', 'pt', 'ar'])
-    def test_room_booking_hk(self, language):
+    @parameterized.expand(lan_list['live']['paris'])
+    def test_room_booking_paris(self, language):
         """
-        Testing Property, Room, Romm Detail, Offer modules for Hongkong,
+        Testing Property, Room, Romm Detail, Offer modules for Paris,
         """
         self.bace_url_test = f"https://{HomePage.environment_pen}.peninsula.com/{language}/paris/5-star-luxury-hotel-16th-arrondissement"
         try:

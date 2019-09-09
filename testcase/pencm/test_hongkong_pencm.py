@@ -9,7 +9,7 @@ from Page.propertypage import RoomListPage
 from driver.browser import chrome_browser, firefox_browser
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.keys import Keys
-
+from data.language_list import lan_list
 
 class Test_Room_HK_EN(unittest.TestCase):
 
@@ -22,7 +22,7 @@ class Test_Room_HK_EN(unittest.TestCase):
     def tearDown(self):
         self.driver.close()
 
-    @parameterized.expand(['en', 'zh-cn', 'zh', 'ja', 'fr', 'kr'])
+    @parameterized.expand(lan_list['live']['hongkong'])
     def test_room_booking_hk(self, language):
         """
         Testing Property, Room, Romm Detail, Offer modules for Hongkong,

@@ -1,10 +1,10 @@
 import unittest
-from ddt import ddt
 from parameterized import parameterized
 
 from Page.homepage import HomePage
 from Page.propertypage import RoomListPage
-from driver.browser import chrome_browser, firefox_browser
+from data.language_list import lan_list
+from driver.browser import firefox_browser
 
 
 class Test_Room_Bangkok_ZHCN(unittest.TestCase):
@@ -14,11 +14,11 @@ class Test_Room_Bangkok_ZHCN(unittest.TestCase):
         self.home = HomePage(self.driver)
         self.property_page = RoomListPage(self.driver)
 
+
     def tearDown(self):
         self.driver.close()
 
-    # @parameterized.expand(['en', 'zh-cn', 'zh', 'ja', 'fr', 'kr'])
-    @parameterized.expand(['en'])
+    @parameterized.expand(lan_list['live']['bangkok'])
     def test_room_booking_bangkok_(self, language):
         """
         Testing Property, Room, Romm Detail, Offer modules for Bangkok,

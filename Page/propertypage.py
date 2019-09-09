@@ -232,7 +232,7 @@ class RoomListPage():
                 print(err)
                 continue
 
-            if offer_text.startswith('x') is True:                  #skip start with x offer
+            if offer_text[0] == 'x' and offer_text[1] == '_':                  #skip start with x offer
                 self.driver.close()
                 self.switch_handls()
                 continue
@@ -436,7 +436,7 @@ class RoomListPage():
                 find_room_url = self.driver.find_element(
                     By.CSS_SELECTOR,
                     f'div.roomListing-rooms div[index="{room_num}"] h3 a').get_attribute("href")
-            except BaseException:
+            except Exception as err:
                 continue
             try:
                 if self.driver.find_element(
@@ -451,22 +451,20 @@ class RoomListPage():
 
         for room_num in range(0, open_tab_num):
             self.switch_handls()
-            self.scroll_many_times(3)
+
+            self.scroll_many_times(8)
 
             try:
-                self.scroll_to_element_xpath(
-                    '//div[@class="bookingbar-dateRanger-container"]//input[@type="text" and @id = "bookingbar-main-start"]')
+                scroll_add_crowd_button = self.driver.find_element_by_id('bookingbar-main-start')
+                self.driver.execute_script("arguments[0].scrollIntoView();", scroll_add_crowd_button)
+
                 self.city_code()
                 direct_url = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room=&rate=&promo=&group=&agencyId=&accessible="
                 WebDriverWait(self.driver,60,0.5).until(EC.presence_of_element_located(
-                        (By.XPATH,
-                         '//div[@class="bookingbar-dateRanger-container"]//input[@type="text" and @id = "bookingbar-main-start"]'))).send_keys(
-                    RoomListPage.start_date)
-                self.driver.find_element(
-                    *
-                    self.find_room_input_end).send_keys(
-                    RoomListPage.end_date)
-            except BaseException:
+                        (By.ID,"bookingbar-main-start"))).send_keys(RoomListPage.start_date)
+                self.driver.find_element(*self.find_room_input_end).send_keys(RoomListPage.end_date)
+            except BaseException as err:
+                print(err, '</br>')
                 self.driver.close()
                 continue
             try:
@@ -604,16 +602,11 @@ class RoomListPage():
         self.scroll_many_times(6)
 
         try:
-            self.scroll_to_element_xpath(
-                '//div[@class = "BookingBar-content"]//input[@id = "bookingbar-main-start"]')
-            self.driver.find_element(
-                *
-                self.find_room_bookingbar_start_date).send_keys(
-                RoomListPage.start_date)
-            self.driver.find_element(
-                *
-                self.find_room_bookingbar_end_date).send_keys(
-                RoomListPage.end_date)
+            scroll_add_crowd_button = self.driver.find_element_by_id('bookingbar-main-start')
+            self.driver.execute_script("arguments[0].scrollIntoView();", scroll_add_crowd_button)
+
+            self.driver.find_element(*self.find_room_bookingbar_start_date).send_keys(RoomListPage.start_date)
+            self.driver.find_element(*self.find_room_bookingbar_end_date).send_keys(RoomListPage.end_date)
         except BaseException:
             self.driver.refresh()
             self.scroll_to_number(1200)

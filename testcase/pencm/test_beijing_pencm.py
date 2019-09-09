@@ -5,7 +5,7 @@ from parameterized import parameterized
 from Page.homepage import HomePage
 from Page.propertypage import RoomListPage
 from driver.browser import chrome_browser, firefox_browser
-
+from data.language_list import lan_list
 
 class Test_Room_Bangkok_ZHCN(unittest.TestCase):
 
@@ -17,10 +17,10 @@ class Test_Room_Bangkok_ZHCN(unittest.TestCase):
     def tearDown(self):
         self.driver.close()
 
-    @parameterized.expand(['en', 'zh-cn', 'ja', 'fr'])
-    def test_room_booking_bangkok_(self, language):
+    @parameterized.expand(lan_list['live']['beijing'])
+    def test_room_booking_beijing(self, language):
         """
-        Testing Property, Room, Romm Detail, Offer modules for Bangkok,
+        Testing Property, Room, Romm Detail, Offer modules for Beijing,
         """
         self.bace_url_test = f"https://{HomePage.environment_pen}.peninsula.com/{language}/beijing/5-star-luxury-hotel-wangfujing"
         try:
