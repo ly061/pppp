@@ -44,7 +44,7 @@ class RoomListPage():
         self.driver = driver
         self.find_element_room_suit = By.ID, "focus-0"  # 定位到room suit
         self.find_element_property_offer = By.ID, "focus-3"
-        self.find_element_offer_room = By.ID, "Rooms & Suites"
+        self.find_element_offer_room = By.XPATH, '//button[@id="Rooms & Suites"]'
         self.find_element_offer_spa = By.ID, "Spa And Wellness"
         self.find_room_list = By.XPATH, '//div[@class="roomListing-rooms"]/div'
         self.find_room_input_start = By.CSS_SELECTOR, '#bookingbar-main-start'
@@ -176,6 +176,7 @@ class RoomListPage():
             self.driver.refresh()
         finally:
             self.driver.find_element(*self.find_element_property_offer).click()
+            sleep(10)
 
     def switch_handls(self):
         """
@@ -206,19 +207,19 @@ class RoomListPage():
 
         WebDriverWait(self.driver, 20, 0.5).until(EC.presence_of_element_located((self.find_offer_list)))
         offer_list = self.driver.find_elements(*self.find_offer_list)
-        open_offer_tab_err = 0
+        open_offer_tab = 0
 
         for offer_index in range(0, len(offer_list)):
             try:
                 find_offer_url = self.driver.find_element(By.XPATH, f'//*[@index = "{offer_index}"]//div[@class = "cardMedium-text"]/a').get_attribute("href")
                 js_open = f"window.open('{find_offer_url}')"
                 self.driver.execute_script(js_open)
+                open_offer_tab += 1
             except BaseException:
-                open_offer_tab_err += 1
-                pass
+                continue
 
 
-        for i in range((len(offer_list) - open_offer_tab_err)):
+        for i in range(open_offer_tab):
             if i == 0:
                 sleep(10)
             self.switch_handls()
@@ -451,6 +452,13 @@ class RoomListPage():
 
         for room_num in range(0, open_tab_num):
             self.switch_handls()
+            cur_room_url_city = self.driver.current_url.split("/")[4].replace("-", "")  # city
+            cur_room_url_lan = self.driver.current_url.split("/")[3]  # lan
+            self.identify_language(cur_room_url_lan)
+            self.read_json_data()
+            data_py = json.loads(RoomListPage.data_json)
+            room_type_name = self.driver.current_url.split("/")[-1]  # room_type
+            self.room_type_code_in_jsondata(cur_room_url_city, room_type_name)
 
             self.scroll_many_times(8)
 
@@ -459,7 +467,7 @@ class RoomListPage():
                 self.driver.execute_script("arguments[0].scrollIntoView();", scroll_add_crowd_button)
 
                 self.city_code()
-                direct_url = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room=&rate=&promo=&group=&agencyId=&accessible="
+                direct_url = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room={RoomListPage.room_type_code}&rate=&promo=&group=&agencyId=&accessible="
                 WebDriverWait(self.driver,60,0.5).until(EC.presence_of_element_located(
                         (By.ID,"bookingbar-main-start"))).send_keys(RoomListPage.start_date)
                 self.driver.find_element(*self.find_room_input_end).send_keys(RoomListPage.end_date)
@@ -686,8 +694,8 @@ class RoomListPage():
                     f'div.roomListing-rooms div[index="{j}"] h3 a').get_attribute("href")
             except:
                 continue
-            room_type_name = base_url_roomtype.split("/")[-1]  # room_type
 
+            room_type_name = base_url_roomtype.split("/")[-1]  # room_type
             self.room_type_code_in_jsondata(cur_room_url_city, room_type_name)
 
             RoomListPage.dir_url_room = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive=&depart=&room={RoomListPage.room_type_code}&rate=&promo=&group=&agencyId=&accessible="
