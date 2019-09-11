@@ -203,7 +203,8 @@ class RoomListPage():
             # self.scroll_many_times(6)
             self.driver.execute_script("arguments[0].scrollIntoView();", self.driver.find_element(*self.find_element_offer_room))
         finally:
-            self.driver.find_element(*self.find_element_offer_room).click()
+
+            self.driver.find_element(*self.find_element_offer_room).send_keys(Keys.ENTER)
 
         WebDriverWait(self.driver, 20, 0.5).until(EC.presence_of_element_located((self.find_offer_list)))
         offer_list = self.driver.find_elements(*self.find_offer_list)
@@ -452,19 +453,22 @@ class RoomListPage():
 
         for room_num in range(0, open_tab_num):
             self.switch_handls()
-            cur_room_url_city = self.driver.current_url.split("/")[4].replace("-", "")  # city
-            cur_room_url_lan = self.driver.current_url.split("/")[3]  # lan
-            self.identify_language(cur_room_url_lan)
-            self.read_json_data()
-            data_py = json.loads(RoomListPage.data_json)
-            room_type_name = self.driver.current_url.split("/")[-1]  # room_type
-            self.room_type_code_in_jsondata(cur_room_url_city, room_type_name)
 
+            # cur_room_url_city = self.driver.current_url.split("/")[4].replace("-", "")  # city
+            # cur_room_url_lan = self.driver.current_url.split("/")[3]  # lan
+            # self.identify_language(cur_room_url_lan)
+            # self.read_json_data()
+            # data_py = json.loads(RoomListPage.data_json)
             self.scroll_many_times(8)
 
             try:
                 scroll_add_crowd_button = self.driver.find_element_by_id('bookingbar-main-start')
                 self.driver.execute_script("arguments[0].scrollIntoView();", scroll_add_crowd_button)
+
+
+                room_type_name = self.driver.current_url.split("/")[-1]  # room_type
+                cur_room_url_city = self.driver.current_url.split("/")[-3].replace("-", "")  # city
+                self.room_type_code_in_jsondata(cur_room_url_city, room_type_name)
 
                 self.city_code()
                 direct_url = f"https://secure.peninsula.com/?locale={RoomListPage.lan_id}&hotel={RoomListPage.hotelid}&arrive={RoomListPage.arrive_time}&depart={RoomListPage.depart_time}&room={RoomListPage.room_type_code}&rate=&promo=&group=&agencyId=&accessible="

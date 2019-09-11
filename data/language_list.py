@@ -1,6 +1,6 @@
 lan_list = {'live': {
     'bangkok': ['en', 'zh-cn', 'ja', 'fr', 'kr'],
-    # 'beijing': ['en'],
+    # 'bangkok': ['zh-cn'],
     'beijing': ['en', 'zh-cn', 'ja', 'fr'],
     'beverly-hills': ['en', 'zh-cn', 'ja', 'fr'],
     'chicago': ['en', 'zh-cn', 'ja', 'fr', 'es'],
